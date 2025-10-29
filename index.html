@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Jeevitha V — Portfolio</title>
+  <meta name="description" content="Portfolio of Jeevitha V — web developer and student." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">Jeevitha V</a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-list">Menu</button>
+        <ul id="nav-list" class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <img class="profile-pic" src="assets/profile.jpg" alt="Profile photo of Jeevitha V (replace with your image)" />
+        <div class="hero-content">
+          <h1>Hi, I'm <span class="accent">Jeevitha V</span></h1>
+          <p class="lead">Web Developer · Designer · Computer Science Student</p>
+          <p class="sublead">Student seeking great learning and working opportunities.</p>
+          <p><a class="btn" href="#projects">View Projects</a> <a class="btn btn-outline" href="#contact">Contact</a></p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>I am a web developer currently studying Computer Science at the University of Madras. I focus on building responsive front-end experiences using HTML, CSS and JavaScript. I enjoy UI design and learning new web technologies. I am a student seeking great learning and working opportunities to grow my skills and contribute to real projects.</p>
+      </div>
+    </section>
+
+    <section id="education" class="section muted">
+      <div class="container">
+        <h2>Education & Qualifications</h2>
+        <ul class="info-list">
+          <li><strong>Bachelor of Computer Science</strong> — University of Madras (2024–2027)</li>
+          <li><strong>High School</strong> — ABC School (2022–2024)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="certificates" class="section">
+      <div class="container">
+        <h2>Certificates</h2>
+        <ul class="info-list">
+          <li>HTML & CSS Certificate — freeCodeCamp</li>
+          <li>JavaScript Certificate — Coursera</li>
+          <li>Responsive Web Design — Google Developer Program</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <article class="project-card">
+            <h3>Project One</h3>
+            <p>A short description of Project One. Mention tech used, outcome, and link to demo or repo.</p>
+            <p class="project-links">
+              <a class="small-btn" href="#" target="_blank" rel="noopener">Live</a>
+              <a class="small-btn" href="#" target="_blank" rel="noopener">Code</a>
+            </p>
+          </article>
+
+          <article class="project-card">
+            <h3>Project Two</h3>
+            <p>A short description of Project Two. Swap these with your real project info and links.</p>
+            <p class="project-links">
+              <a class="small-btn" href="#" target="_blank" rel="noopener">Live</a>
+              <a class="small-btn" href="#" target="_blank" rel="noopener">Code</a>
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section muted">
+      <div class="container">
+        <h2>Contact Me</h2>
+        <form id="contactForm" class="contact-form" novalidate>
+          <label>
+            <span class="sr-only">Your name</span>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </label>
+          <label>
+            <span class="sr-only">Your email</span>
+            <input type="email" id="email" name="email" placeholder="Your email" required />
+          </label>
+          <label>
+            <span class="sr-only">Your message</span>
+            <textarea id="message" name="message" placeholder="Your message" rows="5" required></textarea>
+          </label>
+          <div class="form-actions">
+            <button type="submit" class="btn">Send message</button>
+            <button type="button" id="resetBtn" class="btn btn-outline">Reset</button>
+          </div>
+          <p id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+        <p class="small">Prefer email? <a id="mailtoLink" href="mailto:your.email@example.com">your.email@example.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Jeevitha V. Built with ♥ — <a href="https://github.com/jjazle26">jjazle26</a></p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
